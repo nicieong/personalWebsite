@@ -1,0 +1,95 @@
+/*  Student Name: Ka Yan Ieong
+    Student Number: 041070033
+    Lab: Lab 3
+    Description: Lab 3 CSS style sheet */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-size: 14pt;
+    background-color: #DDD78D;
+    color: rgba(0,0,0,0.7);
+}
+
+p#header {
+    font-size: 6vw;
+}
+
+p {
+    text-align: left;
+}
+
+p.topic {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+p.quote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #DCBF85;
+    text-align: center;
+}
+
+p.ulist {
+    padding-left: 40px;
+}
+
+p#author {
+    padding-top: 20px;
+    text-align: right;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 90px;
+}
+
+div {
+    border: 5px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.7);
+    padding: 10pt;
+    background-color: #60594D;
+    color: #93A29B;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.navbox {
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px 4px 8px 4px;
+    font-size: 12pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8B635C;
+    background-color: lightsteelblue;
+}
+
+img {
+    float: right;
+    width: 25%;
+    margin: 10px;
+}
